@@ -1,5 +1,4 @@
 from django.http import HttpResponse, HttpResponseNotAllowed
-from django.shortcuts import render
 from .models import *
 from django.contrib.auth.models import User
 import math, random, jwt
